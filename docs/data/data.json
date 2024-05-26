@@ -2,8 +2,8 @@
   "posts" : {
     "post-20240526-000128-379" : {
       "name" : "post-20240526-000128-379",
-      "html" : "/post-20240526-000128-379.html",
-      "source" : "/source/post-20240526-000128-379.html-source"
+      "html" : "post-20240526-000128-379.html",
+      "source" : "source/post-20240526-000128-379.html-source"
     }
   }
 }
