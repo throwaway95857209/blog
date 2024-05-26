@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div id="posts" class="container">
 
   </div>
 
@@ -29,7 +29,12 @@
         let post = data.posts[keys[i]];
 
         let response2 = await fetch(post.html);
-        console.log(await response2.text());
+        let html = await response2.text();
+
+        let div = document.createElement("div");
+        div.innerHTML = html;
+
+        document.getElementById("posts").appendChild(div);
       }
     })();
   </script>
