@@ -6,6 +6,13 @@
       "html" : "this-is-my-first-blog-post.html",
       "source" : "source/this-is-my-first-blog-post.html-source",
       "created" : 1716770498292
+    },
+    "this-is-my-second-blog-post" : {
+      "name" : "this-is-my-second-blog-post",
+      "title" : "This is My Second Blog Post",
+      "html" : "this-is-my-second-blog-post.html",
+      "source" : "source/this-is-my-second-blog-post.html-source",
+      "created" : 1716771668335
     }
   }
 }
