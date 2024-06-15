@@ -115,6 +115,7 @@
   <script src="js/scripts.js"></script>
 
   <script>
+    "use strict";
     const getPost = function (data) {
       const template = document.getElementById("post").innerHTML;
       return new Function("return `" + template + "`;").call(data);
