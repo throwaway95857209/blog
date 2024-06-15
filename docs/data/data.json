@@ -7,7 +7,7 @@
       "html" : "this-is-my-first-blog-post.html",
       "source" : "source/this-is-my-first-blog-post.html-source",
       "created" : 1716770498292,
-      "by": "Full Stack Cloud Developer"
+      "by" : "Full Stack Cloud Developer"
     },
     "this-is-my-second-blog-post" : {
       "name" : "this-is-my-second-blog-post",
@@ -16,7 +16,14 @@
       "html" : "this-is-my-second-blog-post.html",
       "source" : "source/this-is-my-second-blog-post.html-source",
       "created" : 1716771668335,
-      "by": "Full Stack Cloud Developer"
+      "by" : "Full Stack Cloud Developer"
+    },
+    "my-third-blog-post" : {
+      "name" : "my-third-blog-post",
+      "title" : "My Third Blog Post",
+      "html" : "my-third-blog-post.html",
+      "source" : "source/my-third-blog-post.html-source",
+      "created" : 1718483949222
     }
   }
 }
