@@ -26,6 +26,15 @@
       "source" : "source/my-third-blog-post.html-source",
       "created" : 1718483949222,
       "author" : "Full Stack Cloud Developer"
+    },
+    "fourth-blog-post" : {
+      "name" : "fourth-blog-post",
+      "title" : "Fourth Blog Post",
+      "subtitle" : "This is my fourth blog post",
+      "author" : "Full Stack Cloud Developer",
+      "html" : "fourth-blog-post.html",
+      "source" : "source/fourth-blog-post.html-source",
+      "created" : 1718485074812
     }
   }
 }
