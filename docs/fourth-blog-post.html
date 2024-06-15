@@ -1,0 +1,11 @@
+
+    <h1 id="blog-title">Fourth Blog Post</h1>
+    <h2 id="blog-subtitle">This is my fourth blog post</h2>
+    <div id="content">
+      <div id="blog-post" data-title="Fourth Blog Post" data-subtitle="This is my fourth blog post"><p>This is my fourth blog post which has more text than the titles. Why is this not wrapping and how do I set it to wrap. I am talking about the editor here.</p></div>
+    </div>
+    <script>
+      document.getElementById("blog-title").replaceChildren(document.getElementById("blog-post").getAttribute("data-title"));
+      document.getElementById("blog-subtitle").replaceChildren(document.getElementById("blog-post").getAttribute("data-subtitle"));
+    </script>
+  
