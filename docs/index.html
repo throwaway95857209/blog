@@ -118,7 +118,8 @@
   <script>
     const getPost = function (data) {
       const template = document.getElementById("post").innerHTML;
-      return (new Function("return `" + template + "`;").call(data));
+      const value = (new Function("return `" + template + "`;").call(data));
+      return value;
     };
 
     (async function () {
