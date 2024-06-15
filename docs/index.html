@@ -116,7 +116,7 @@
 
   <script>
     "use strict";
-    const getFormattedDate(created) {
+    const getFormattedDate = function (created) {
       const date = new Date(created);
       const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
       return date.toLocaleDateString("en-US", options));    
