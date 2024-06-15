@@ -99,14 +99,14 @@
   <template id="post">
     <!-- Post preview-->
     <div class="post-preview">
-      <a href="${data.html}">
-        <h2 class="post-title">${data.title}</h2>
-        <h3 class="post-subtitle${data.subtitle ? "" : " d-none"}">${data.subtitle ? data.subtitle : ""}</h3>
+      <a href="${html}">
+        <h2 class="post-title">${title}</h2>
+        <h3 class="post-subtitle${subtitle ? "" : " d-none"}">${subtitle ? subtitle : ""}</h3>
       </a>
       <p class="post-meta">
         Posted by
         <a href="#!">Start Bootstrap</a>
-        on ${new Date(data.created).toDateString()}
+        on ${new Date(created).toDateString()}
       </p>
     </div>
   </template>
