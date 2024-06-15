@@ -105,7 +105,7 @@
       <p class="post-meta">
         Posted by
         <a href="#!">Start Bootstrap</a>
-        on ${new Date(this.created).toDateString()}
+        on ${getFormattedDate(this.created)}
       </p>      
     </div>
   </template>
@@ -116,6 +116,12 @@
 
   <script>
     "use strict";
+    const getFormattedDate(created) {
+      const date = new Date(created);
+      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      return date.toLocaleDateString("en-US", options));    
+    }
+
     const getPost = function (data) {
       const template = document.getElementById("post").innerHTML;
       return new Function("return `" + template + "`;").call(data);
