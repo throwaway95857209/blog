@@ -6,7 +6,8 @@
       "subtitle" : "This is the subtitle to my first post which describes it a bit more than the title.",
       "html" : "this-is-my-first-blog-post.html",
       "source" : "source/this-is-my-first-blog-post.html-source",
-      "created" : 1716770498292
+      "created" : 1716770498292,
+      "by": "FullStackCloudDeveloper"
     },
     "this-is-my-second-blog-post" : {
       "name" : "this-is-my-second-blog-post",
@@ -14,7 +15,8 @@
       "subtitle" : "This is the subtitle to my second post which describes it a bit more than the title.",
       "html" : "this-is-my-second-blog-post.html",
       "source" : "source/this-is-my-second-blog-post.html-source",
-      "created" : 1716771668335
+      "created" : 1716771668335,
+      "by": "FullStackCloudDeveloper"
     }
   }
 }
