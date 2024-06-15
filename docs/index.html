@@ -116,7 +116,7 @@
   <script src="js/scripts.js"></script>
 
   <script>
-    const getPost = function (data) {
+    const getPost = async function (data) {
       const template = document.getElementById("post").innerHTML;
       const value = (new Function("return `" + template + "`;").call(data));
       return value;
@@ -135,7 +135,7 @@
         let html = await response2.text();
 
         let div = document.createElement("div");
-        div.innerHTML = getPost(post);
+        div.innerHTML = await getPost(post);
 
         document.getElementById("posts").appendChild(div.children[0]);
       }
