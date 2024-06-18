@@ -53,6 +53,15 @@
       "created" : "1718680930567",
       "html" : "my-sixth-blog-post.html",
       "source" : "source/my-sixth-blog-post.html-source"
+    },
+    "my-seventh-blog-post" : {
+      "name" : "my-seventh-blog-post",
+      "title" : "My Seventh Blog Post",
+      "subtitle" : "This is the subtitle for my seventh blog post",
+      "author" : "Full Stack Cloud Developer",
+      "created" : "1718686270602",
+      "html" : "my-seventh-blog-post.html",
+      "source" : "source/my-seventh-blog-post.html-source"
     }
   }
 }
