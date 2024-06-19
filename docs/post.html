@@ -107,12 +107,11 @@
   <!-- Core theme JS-->
   <script src="js/scripts.js"></script>
   <script>
-    "use strict";
     const getFormattedDate = function (created) {
       const date = new Date(created);
       const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
       return date.toLocaleDateString("en-US", options);
-    }
+    };
 
     (async () => {
       if (window.location.hash) {
