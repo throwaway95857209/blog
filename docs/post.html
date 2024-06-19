@@ -45,12 +45,12 @@
       <div class="row gx-4 gx-lg-5 justify-content-center">
         <div class="col-md-10 col-lg-8 col-xl-7">
           <div class="post-heading">
-            <h1>Man must explore, and this is exploration at its greatest</h1>
-            <h2 class="subheading">Problems look mighty small from 150 miles up</h2>
+            <h1 id="title"></h1>
+            <h2 id="subtitle" class="subheading"></h2>
             <span class="meta">
               Posted by
-              <a href="#!">Start Bootstrap</a>
-              on August 24, 2023
+              <a id="author" href="#!"></a>
+              on <span id="created"></span>
             </span>
           </div>
         </div>
@@ -107,6 +107,13 @@
   <!-- Core theme JS-->
   <script src="js/scripts.js"></script>
   <script>
+    "use strict";
+    const getFormattedDate = function (created) {
+      const date = new Date(created);
+      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      return date.toLocaleDateString("en-US", options);
+    }
+
     (async () => {
       if (window.location.hash) {
         const link = window.location.hash.substring(1);
@@ -115,6 +122,19 @@
         console.log(text);
         const child = document.createRange().createContextualFragment(text);
         console.log(child);
+
+        const blog = child.children[0];
+        const name = blog.getAttribute("data-name");
+        const title = blog.getAttribute("data-title");
+        const subtitle = blog.getAttribute("data-subtitle");
+        const created = +blog.getAttribute("data-created");
+        const author = blog.getAttribute("data-author");
+
+        document.getElementById("title").text = title;
+        document.getElementById("subtitle").text = subtitle;
+        document.getElementById("author").text = author;
+        document.getElementById("created").text = getFormattedDate(created);
+
         document.getElementById("content").replaceChildren(child);
       }
     })();
