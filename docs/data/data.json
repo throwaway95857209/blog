@@ -4,7 +4,7 @@
       "name" : "my-first-blog-post",
       "title" : "Lorem Ipsum Dolor Sit Amet",
       "subtitle" : "Diam maecenas sed enim ut sem viverra aliquet eget sit. Sagittis purus sit amet volutpat consequat mauris.",
-      "author" : "",
+      "author" : "Full Stack Cloud Developer",
       "created" : 1718836945093,
       "html" : "my-first-blog-post.html",
       "source" : "source/my-first-blog-post.html-source"
