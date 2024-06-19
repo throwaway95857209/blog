@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <title>Clean Blog - Start Bootstrap Theme</title>
+  <title>Clean Blog - Full Stack Cloud Developer</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
   <!-- Font Awesome icons (free version)-->
   <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -24,7 +24,7 @@
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
     <div class="container px-4 px-lg-5">
-      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+      <a class="navbar-brand" href="index.html">Full Stack Cloud Developer</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
@@ -118,22 +118,19 @@
         const link = window.location.hash.substring(1);
         const response = await fetch(`/blog/${link}`);
         const text = await response.text();
-        console.log(text);
         const child = document.createRange().createContextualFragment(text);
-        console.log(child);
 
         const blog = child.children[0];
         const name = blog.getAttribute("data-name");
         const title = blog.getAttribute("data-title");
         const subtitle = blog.getAttribute("data-subtitle");
-        const created = +blog.getAttribute("data-created");
+        const created = blog.getAttribute("data-created");
         const author = blog.getAttribute("data-author");
 
         document.getElementById("title").innerText = title;
         document.getElementById("subtitle").innerText = subtitle;
         document.getElementById("author").innerText = author;
-        document.getElementById("created").innerText = getFormattedDate(created);
-
+        document.getElementById("created").innerText = getFormattedDate(+created);
         document.getElementById("content").replaceChildren(child);
       }
     })();
