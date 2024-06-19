@@ -153,11 +153,13 @@
   <!-- Core theme JS-->
   <script src="js/scripts.js"></script>
   <script>
-    if (window.location.hash) {
-      const link = window.location.hash.substring(1);
-      const response = fetch(`/blog/${link}`);
-      console.log(response.text());
-    }
+    (async () => {
+      if (window.location.hash) {
+        const link = window.location.hash.substring(1);
+        const response = await fetch(`/blog/${link}`);
+        console.log(response.text());
+      }
+    })();
   </script>
 </body>
 
