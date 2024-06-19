@@ -44,6 +44,15 @@
       "created" : 1718840501365,
       "html" : "semper-auctor-neque-vitae-tempus.html",
       "source" : "source/semper-auctor-neque-vitae-tempus.html-source"
+    },
+    "augue-mauris-augue" : {
+      "name" : "augue-mauris-augue",
+      "title" : "Augue Mauris Augue",
+      "subtitle" : "Lobortis mattis aliquam faucibus purus in massa tempor nec feugiat.",
+      "author" : "Full Stack Cloud Developer",
+      "created" : 1718841247025,
+      "html" : "augue-mauris-augue.html",
+      "source" : "source/augue-mauris-augue.html-source"
     }
   }
 }
