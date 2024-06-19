@@ -157,7 +157,8 @@
       if (window.location.hash) {
         const link = window.location.hash.substring(1);
         const response = await fetch(`/blog/${link}`);
-        console.log(response.text());
+        const text = await response.text();
+        console.log(text);
       }
     })();
   </script>
