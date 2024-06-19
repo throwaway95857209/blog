@@ -2,8 +2,8 @@
   "posts" : {
     "my-first-blog-post" : {
       "name" : "my-first-blog-post",
-      "title" : "My First Blog Post",
-      "subtitle" : "This is the subtitle for my first blog post",
+      "title" : "Lorem Ipsum Dolor Sit Amet",
+      "subtitle" : "Diam maecenas sed enim ut sem viverra aliquet eget sit. Sagittis purus sit amet volutpat consequat mauris",
       "author" : "",
       "created" : 1718836945093,
       "html" : "my-first-blog-post.html",
