@@ -129,10 +129,10 @@
         const created = +blog.getAttribute("data-created");
         const author = blog.getAttribute("data-author");
 
-        document.getElementById("title").text = title;
-        document.getElementById("subtitle").text = subtitle;
-        document.getElementById("author").text = author;
-        document.getElementById("created").text = getFormattedDate(created);
+        document.getElementById("title").innerText = title;
+        document.getElementById("subtitle").innerText = subtitle;
+        document.getElementById("author").innerText = author;
+        document.getElementById("created").innerText = getFormattedDate(created);
 
         document.getElementById("content").replaceChildren(child);
       }
