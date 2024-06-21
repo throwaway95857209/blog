@@ -62,6 +62,15 @@
       "created" : 1718936741290,
       "html" : "proin-sollicitudin-dictum-nunc.html",
       "source" : "source/proin-sollicitudin-dictum-nunc.html-source"
+    },
+    "image-test" : {
+      "name" : "image-test",
+      "title" : "Image Test",
+      "subtitle" : "This is a test of uploading images and using it in a blog post",
+      "author" : "Full Stack Cloud Developer",
+      "created" : 1718937789979,
+      "html" : "image-test.html",
+      "source" : "source/image-test.html-source"
     }
   }
 }
