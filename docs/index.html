@@ -134,6 +134,7 @@
 
         let response2 = await fetch(post.html);
         let html = await response2.text();
+        html = html.replace("${image-path}", "assets/img");
 
         let div = document.createElement("div");
         div.innerHTML = getPost(post);
