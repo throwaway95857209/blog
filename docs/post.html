@@ -18,6 +18,76 @@
     rel="stylesheet" type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet" />
+
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/paragraph"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-image-editorjs"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image"></script> -->
+  <!-- <script src="simple-image.js"></script>
+  <link href="simple-image.css" rel="stylesheet" /> -->
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/checklist"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/code"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/delimiter"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/embed"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/header"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@editorjs/image"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/inline-code"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/marker"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/nested-list"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/quote"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/raw"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/table"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@editorjs/warning"></script>
+  <script src="https://cdn.jsdelivr.net/npm/editorjs-undo"></script>
+  <script src="https://cdn.jsdelivr.net/npm/editorjs-drag-drop"></script>
+  <script src="https://cdn.jsdelivr.net/npm/editorjs-text-alignment-blocktune"></script>
+
+  <style>
+    .ce-block__content,
+    .ce-toolbar__content {
+      max-width: unset;
+    }
+
+    .ce-toolbar__actions {
+      right: auto !important;
+      left: -1px !important;
+      top: 28px !important;
+      background: rgba(255, 255, 255, 1) !important;
+      border-radius: 8px !important;
+      border: solid 1px rgba(232, 232, 235, 1) !important;
+      box-shadow: 1px 4px 12px 0px rgba(0, 0, 0, 0.1) !important;
+      padding-right: 0px !important;
+      opacity: 80%;
+    }
+
+    .tc-table {
+      border: 1px solid var(--color-border);
+    }
+
+    .tc-add-column {
+      border-top: none;
+    }
+
+    .tc-row:after {
+      border-bottom: none;
+    }
+
+    .tc-table--heading .tc-row:first-child:after {
+      border-bottom: none;
+    }
+
+    .cdx-simple-image__picture--stretched img,
+    .simple-image.stretched img {
+      display: unset;
+      margin: unset;
+      margin-bottom: 10px;
+      width: 60%;
+    }
+
+    .cdx-input.cdx-simple-image__caption {
+      display: none;
+    }
+  </style>
 </head>
 
 <body>
@@ -61,7 +131,7 @@
   <article class="mb-4">
     <div class="container px-4 px-lg-5">
       <div class="row gx-4 gx-lg-5 justify-content-center">
-        <div id="content" class="col-md-10 col-lg-8 col-xl-7">
+        <div id="editorjs" class="col-md-10 col-lg-8 col-xl-7">
         </div>
       </div>
     </div>
@@ -107,6 +177,78 @@
   <!-- Core theme JS-->
   <script src="js/scripts.js"></script>
   <script>
+    const editor = new EditorJS({
+      autofocus: true,
+      placeholder: 'Type text or paste a link',
+      tools: {
+        header: {
+          class: Header,
+          inlineToolbar: ['link', 'marker'],
+          tunes: ['anyTuneName']
+        },
+        paragraph: {
+          class: Paragraph,
+          inlineToolbar: true,
+          tunes: ['anyTuneName']
+        },
+        image: {
+          class: SimpleImage,
+          inlineToolbar: true,
+          config: {
+            placeholder: 'Paste image URL'
+          },
+          tunes: ['anyTuneName']
+        },
+        list: {
+          class: NestedList,
+          inlineToolbar: true
+        },
+        code: {
+          class: CodeTool,
+          shortcut: 'CMD+SHIFT+D'
+        },
+        quote: {
+          class: Quote,
+          inlineToolbar: true,
+        },
+        delimiter: Delimiter,
+        embed: Embed,
+        table: {
+          class: Table,
+          inlineToolbar: true
+        },
+        raw: RawTool,
+        inlineCode: {
+          class: InlineCode,
+          shortcut: 'CMD+SHIFT+C'
+        },
+        marker: {
+          class: Marker,
+          shortcut: 'CMD+SHIFT+M'
+        },
+        warning: Warning,
+        checklist: Checklist,
+        anyTuneName: {
+          class: AlignmentBlockTune,
+          config: {
+            default: 'left',
+            blocks: {
+            }
+          }
+        }
+      },
+      defaultBlock: 'paragraph',
+      onReady: () => {
+        setTimeout(() => {
+          new Undo({ editor });
+          new DragDrop(editor);
+        }, 200);
+      }
+    });
+  </script>
+
+
+  <!-- <script>
     const getFormattedDate = function (created) {
       const date = new Date(created);
       const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
@@ -134,7 +276,7 @@
         document.getElementById("content").replaceChildren(child);
       }
     })();
-  </script>
+  </script> -->
 </body>
 
 </html>
