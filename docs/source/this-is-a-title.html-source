@@ -1,0 +1,9 @@
+{
+  "name" : "this-is-a-title",
+  "title" : "This is a Title",
+  "subtitle" : "This is the subtitle",
+  "author" : "fullstackclouddeveloper",
+  "created" : 1719904747265,
+  "content" : "{\n    \"time\": 1719904674856,\n    \"blocks\": [\n        {\n            \"id\": \"jKGkyFFRPX\",\n            \"type\": \"header\",\n            \"data\": {\n                \"text\": \"This is a header 1\",\n                \"level\": 1\n            },\n            \"tunes\": {\n                \"anyTuneName\": {\n                    \"alignment\": \"left\"\n                }\n            }\n        },\n        {\n            \"id\": \"A-2DzFRZb_\",\n            \"type\": \"paragraph\",\n            \"data\": {\n                \"text\": \"This is a paragraph.\"\n            },\n            \"tunes\": {\n                \"anyTuneName\": {\n                    \"alignment\": \"left\"\n                }\n            }\n        }\n    ],\n    \"version\": \"2.29.1\"\n}",
+  "source" : "source/this-is-a-title.html-source"
+}
