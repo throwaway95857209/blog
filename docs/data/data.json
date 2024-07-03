@@ -8,6 +8,15 @@
       "created" : 1720048007834,
       "properties" : { },
       "path" : "content/this-is-a-test.json"
+    },
+    "this-is-another-test" : {
+      "name" : "this-is-another-test",
+      "title" : "This is another test",
+      "subtitle" : "This is another subtitle",
+      "author" : "Full Stack Cloud Developer",
+      "created" : 1720048137270,
+      "properties" : { },
+      "path" : "content/this-is-another-test.json"
     }
   }
 }
