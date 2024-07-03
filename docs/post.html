@@ -21,10 +21,11 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs"></script>
   <script src="https://cdn.jsdelivr.net/npm/@editorjs/paragraph"></script>
-  <script src="https://cdn.jsdelivr.net/npm/simple-image-editorjs"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/simple-image-editorjs"></script> -->
   <!-- <script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image"></script> -->
-  <!-- <script src="simple-image.js"></script>
-  <link href="simple-image.css" rel="stylesheet" /> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image"></script> -->
+  <script src="simple-image.js"></script>
+  <link href="simple-image.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/@editorjs/checklist"></script>
   <script src="https://cdn.jsdelivr.net/npm/@editorjs/code"></script>
   <script src="https://cdn.jsdelivr.net/npm/@editorjs/delimiter"></script>
@@ -243,41 +244,37 @@
         setTimeout(() => {
           new Undo({ editor });
           new DragDrop(editor);
+
+          (async () => {
+            if (window.location.hash) {
+              const link = window.location.hash.substring(1);
+              const response = await fetch(`${link}.json`);
+              const text = await response.text();
+              const data = JSON.parse(text);
+
+              document.getElementById("title").innerText = data.title;
+              document.getElementById("subtitle").innerText = data.subtitle;
+              document.getElementById("author").innerText = data.author;
+              document.getElementById("created").innerText = getFormattedDate(+data.created);
+
+              await editor.render(data.content);
+              // editor.readOnly.toggle(true);
+            }
+          })();
+
         }, 200);
       }
     });
   </script>
 
 
-  <!-- <script>
+  <script>
     const getFormattedDate = function (created) {
       const date = new Date(created);
       const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
       return date.toLocaleDateString("en-US", options);
     };
-
-    (async () => {
-      if (window.location.hash) {
-        const link = window.location.hash.substring(1);
-        const response = await fetch(`/blog/${link}`);
-        const text = await response.text();
-        const child = document.createRange().createContextualFragment(text);
-
-        const blog = child.children[0];
-        const name = blog.getAttribute("data-name");
-        const title = blog.getAttribute("data-title");
-        const subtitle = blog.getAttribute("data-subtitle");
-        const created = blog.getAttribute("data-created");
-        const author = blog.getAttribute("data-author");
-
-        document.getElementById("title").innerText = title;
-        document.getElementById("subtitle").innerText = subtitle;
-        document.getElementById("author").innerText = author;
-        document.getElementById("created").innerText = getFormattedDate(+created);
-        document.getElementById("content").replaceChildren(child);
-      }
-    })();
-  </script> -->
+  </script>
 </body>
 
 </html>
