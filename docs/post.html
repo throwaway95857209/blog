@@ -248,7 +248,7 @@
           (async () => {
             if (window.location.hash) {
               const link = window.location.hash.substring(1);
-              const response = await fetch(`${link}.json`);
+              const response = await fetch(`content/${link}.json`);
               const text = await response.text();
               const data = JSON.parse(text);
 
