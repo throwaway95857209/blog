@@ -86,24 +86,8 @@
       "title" : "Title",
       "subtitle" : "Subtitle",
       "author" : "Author",
-      "created" : 1719906985713,
-      "content" : {
-        "time" : 1719906983900,
-        "blocks" : [ {
-          "id" : "nrh_F_nkYR",
-          "type" : "paragraph",
-          "data" : {
-            "text" : "This is a test"
-          },
-          "tunes" : {
-            "anyTuneName" : {
-              "alignment" : "left"
-            }
-          }
-        } ],
-        "version" : "2.29.1"
-      },
-      "source" : "source/title.html-source"
+      "created" : 1719965081815,
+      "content" : "content/title.json"
     }
   }
 }
