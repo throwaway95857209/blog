@@ -1,0 +1,42 @@
+{
+  "name" : "yet-another-properties-test",
+  "title" : "Yet Another Properties Test",
+  "subtitle" : "This is yet another properties test",
+  "author" : "Full Stack Cloud Developer",
+  "created" : 1720036398608,
+  "content" : {
+    "time" : 1720036389070,
+    "blocks" : [ {
+      "id" : "pgOsY_kr_S",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "What is the state of this post?"
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "_A6awIzb0e",
+      "type" : "image",
+      "data" : {
+        "url" : "https://middleton.id.gov/portals/0/Homepage/MainImage.jpg",
+        "caption" : "",
+        "withBorder" : false,
+        "withBackground" : false,
+        "stretched" : false
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    } ],
+    "version" : "2.29.1"
+  },
+  "properties" : {
+    "property1" : "value1"
+  },
+  "path" : "content/yet-another-properties-test.json"
+}
