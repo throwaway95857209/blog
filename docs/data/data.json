@@ -233,6 +233,31 @@
         "version" : "2.29.1"
       },
       "path" : "content/another-property-editor-test.json"
+    },
+    "one-more-properties-test" : {
+      "name" : "one-more-properties-test",
+      "title" : "One More Properties Test",
+      "subtitle" : "This one should work.",
+      "author" : "Author",
+      "created" : 1720023087650,
+      "content" : {
+        "time" : 1720023081844,
+        "blocks" : [ {
+          "id" : "LEPGlf_t0g",
+          "type" : "paragraph",
+          "data" : {
+            "text" : "This one should work."
+          },
+          "tunes" : {
+            "anyTuneName" : {
+              "alignment" : "left"
+            }
+          }
+        } ],
+        "version" : "2.29.1"
+      },
+      "properties" : { },
+      "path" : "content/one-more-properties-test.json"
     }
   }
 }
