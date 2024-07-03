@@ -2,13 +2,11 @@
   "posts" : {
     "this-is-a-test" : {
       "name" : "this-is-a-test",
-      "title" : "This is a Test",
-      "subtitle" : "This is a paste and background-image test.",
-      "author" : "Full Stack Cloud Developer ",
-      "created" : 1720044657251,
-      "properties" : {
-        "background-image" : "https://middleton.id.gov/portals/0/Homepage/MainImage.jpg"
-      },
+      "title" : "This is a test",
+      "subtitle" : "This is a subtitle",
+      "author" : "Full Stack Cloud Developer",
+      "created" : 1720048007834,
+      "properties" : { },
       "path" : "content/this-is-a-test.json"
     }
   }
