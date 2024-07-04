@@ -17,6 +17,15 @@
       "created" : 1720048137270,
       "properties" : { },
       "path" : "content/this-is-another-test.json"
+    },
+    "title" : {
+      "name" : "title",
+      "title" : "Title",
+      "subtitle" : "Subtitle",
+      "author" : "Author",
+      "created" : 1720080327940,
+      "properties" : { },
+      "path" : "content/title.json"
     }
   }
 }
