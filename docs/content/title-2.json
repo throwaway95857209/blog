@@ -3,9 +3,9 @@
   "title" : "Title 2",
   "subtitle" : "Subtitle",
   "author" : "Author",
-  "created" : 1720132985013,
+  "created" : 1720134057236,
   "content" : {
-    "time" : 1720132984495,
+    "time" : 1720134056707,
     "blocks" : [ {
       "id" : "9XXj5xJE19",
       "type" : "paragraph",
@@ -41,7 +41,7 @@
       "type" : "table",
       "data" : {
         "withHeadings" : true,
-        "content" : [ [ "information", "some information", "more information" ] ]
+        "content" : [ [ "Heading 1", "Heading 2", "Heading 3" ], [ "information", "some information", "more information" ] ]
       }
     } ],
     "version" : "2.29.1"
