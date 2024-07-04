@@ -3,14 +3,14 @@
   "title" : "Title",
   "subtitle" : "Subtitle",
   "author" : "Author",
-  "created" : 1720080327940,
+  "created" : 1720129331069,
   "content" : {
-    "time" : 1720080327373,
+    "time" : 1720129330515,
     "blocks" : [ {
-      "id" : "RSlY4oq7xI",
+      "id" : "ZV_7pJ0DVC",
       "type" : "paragraph",
       "data" : {
-        "text" : "This is a test."
+        "text" : "This is a background image test."
       },
       "tunes" : {
         "anyTuneName" : {
@@ -20,6 +20,8 @@
     } ],
     "version" : "2.29.1"
   },
-  "properties" : { },
+  "properties" : {
+    "background-image" : "https://middleton.id.gov/portals/0/Homepage/MainImage.jpg"
+  },
   "path" : "content/title.json"
 }
