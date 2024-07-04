@@ -23,8 +23,10 @@
       "title" : "Title",
       "subtitle" : "Subtitle",
       "author" : "Author",
-      "created" : 1720080327940,
-      "properties" : { },
+      "created" : 1720129331069,
+      "properties" : {
+        "background-image" : "https://middleton.id.gov/portals/0/Homepage/MainImage.jpg"
+      },
       "path" : "content/title.json"
     },
     "title-2" : {
