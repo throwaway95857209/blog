@@ -3,9 +3,9 @@
   "title" : "Title 2",
   "subtitle" : "Subtitle",
   "author" : "Author",
-  "created" : 1720134057236,
+  "created" : 1720158253446,
   "content" : {
-    "time" : 1720134056707,
+    "time" : 1720158252846,
     "blocks" : [ {
       "id" : "9XXj5xJE19",
       "type" : "paragraph",
@@ -46,6 +46,8 @@
     } ],
     "version" : "2.29.1"
   },
-  "properties" : { },
+  "properties" : {
+    "background-image" : "https://middleton.id.gov/portals/0/Homepage/MainImage.jpg"
+  },
   "path" : "content/title-2.json"
 }
