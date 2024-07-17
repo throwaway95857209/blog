@@ -39,6 +39,15 @@
         "background-image" : "https://middleton.id.gov/portals/0/Homepage/MainImage.jpg"
       },
       "path" : "content/title-2.json"
+    },
+    "new-post-test" : {
+      "name" : "new-post-test",
+      "title" : "New Post Test",
+      "subtitle" : "This is a test of the post editor that edits live posts.",
+      "author" : "Full Stack Cloud Developer",
+      "created" : 1721202070477,
+      "properties" : { },
+      "path" : "content/new-post-test.json"
     }
   }
 }
