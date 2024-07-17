@@ -1,0 +1,47 @@
+{
+  "name" : "new-post-test",
+  "title" : "New Post Test",
+  "subtitle" : "This is a test of the post editor that edits live posts.",
+  "author" : "Full Stack Cloud Developer",
+  "created" : 1721202070477,
+  "content" : {
+    "time" : 1721202068966,
+    "blocks" : [ {
+      "id" : "GgdPDb9s4h",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "So, this is a test of the new post publish command on the new blog post that is the actual blog post that publishes to the live website."
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "cnEHWVWKuq",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "Opening a file is no longer needed because you can edit the actual blog this way."
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "QH3jJ2CF0N",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "Let's try to publish this post."
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    } ],
+    "version" : "2.30.2"
+  },
+  "properties" : { },
+  "path" : "content/new-post-test.json"
+}
