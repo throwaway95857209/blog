@@ -268,12 +268,12 @@
               if (data.properties["background-image"]) {
                 document.querySelector("header.masthead").style.backgroundImage = `url(${data.properties["background-image"]})`;
               } else {
-                 document.querySelector("header.masthead").style.backgroundImage = "url(assets/img/default.jpg)";
+                document.querySelector("header.masthead").style.backgroundImage = "url(assets/img/default.jpg)";
               }
-              editor.readOnly.toggle(true);
-
-              document.getElementById('editorjs').editor = editor;
             }
+            editor.readOnly.toggle(true);
+            document.getElementById('editorjs').editor = editor;
+
           })();
 
         }, 200);
