@@ -48,6 +48,17 @@
       "created" : 1721202070477,
       "properties" : { },
       "path" : "content/new-post-test.json"
+    },
+    "testing-background-images" : {
+      "name" : "testing-background-images",
+      "title" : "Testing Background Images",
+      "subtitle" : "This is a test for background images for new posts.",
+      "author" : "Full Stack Cloud Developer",
+      "created" : 1721204581528,
+      "properties" : {
+        "background-image" : "https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg"
+      },
+      "path" : "content/testing-background-images.json"
     }
   }
 }
