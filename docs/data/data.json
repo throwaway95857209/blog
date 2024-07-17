@@ -57,6 +57,15 @@
       "created" : 1721206003275,
       "properties" : { },
       "path" : "content/testing-background-images.json"
+    },
+    "charlie-bear" : {
+      "name" : "charlie-bear",
+      "title" : "Charlie Bear",
+      "subtitle" : "The dog",
+      "author" : "Charlie",
+      "created" : 1721228543922,
+      "properties" : { },
+      "path" : "content/charlie-bear.json"
     }
   }
 }
