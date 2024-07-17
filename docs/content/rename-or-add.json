@@ -3,9 +3,9 @@
   "title" : "Rename or add",
   "subtitle" : "Will this rename or add an additional new file?",
   "author" : "Full Stack Cloud Developer",
-  "created" : 1721247422915,
+  "created" : 1721247864598,
   "content" : {
-    "time" : 1721247422277,
+    "time" : 1721247864037,
     "blocks" : [ {
       "id" : "ZV_7pJ0DVC",
       "type" : "paragraph",
@@ -28,6 +28,93 @@
       "type" : "paragraph",
       "data" : {
         "text" : "That ^^^ box above is just a textarea with a monospace font :("
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "d2ujcISYvJ",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "What other plugins can be improved?"
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "djrpymgY3Z",
+      "type" : "quote",
+      "data" : {
+        "text" : "This is a quote?",
+        "caption" : "",
+        "alignment" : "left"
+      }
+    }, {
+      "id" : "J7dNtfzmQm",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "I wonder what that will look like in read-only mode?"
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "4zTY0XF3rP",
+      "type" : "raw",
+      "data" : {
+        "html" : "Is this just another textarea?\n\nI believe it is. The only difference between this and the other one is the color of the background.\n\n<html>\n<body>\n</body>\n</html>"
+      }
+    }, {
+      "id" : "BtsXb-zO3b",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "It does not even have tab control."
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "a3ZM6buPAB",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "I think I am going to have to rewrite all of these for a real blog/website builder."
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "N9HbSMkVUr",
+      "type" : "warning",
+      "data" : {
+        "title" : "I don't get this one",
+        "message" : "The icon over there is supposed to make this a warning?"
+      }
+    }, {
+      "id" : "wyeGvHh94W",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "I will be creating new components for most of the things I want to do. It seems like header and paragraph are the keepable components, but everything else needs to be replaced."
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "WwEgttJzfS",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "Hmm..."
       },
       "tunes" : {
         "anyTuneName" : {
