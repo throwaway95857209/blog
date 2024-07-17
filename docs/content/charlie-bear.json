@@ -1,0 +1,37 @@
+{
+  "name" : "charlie-bear",
+  "title" : "Charlie Bear",
+  "subtitle" : "The dog",
+  "author" : "Charlie",
+  "created" : 1721228543922,
+  "content" : {
+    "time" : 1721228543192,
+    "blocks" : [ {
+      "id" : "7ey_yCFP3D",
+      "type" : "header",
+      "data" : {
+        "text" : "Dog&nbsp;",
+        "level" : 2
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "SUvg1s84W_",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "Puppy&nbsp;"
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    } ],
+    "version" : "2.30.2"
+  },
+  "properties" : { },
+  "path" : "content/charlie-bear.json"
+}
