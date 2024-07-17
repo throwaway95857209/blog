@@ -72,8 +72,10 @@
       "title" : "Cangie Bear",
       "subtitle" : "the dog",
       "author" : "me",
-      "created" : 1721230903314,
-      "properties" : { },
+      "created" : 1721231096421,
+      "properties" : {
+        "background-image" : "https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg"
+      },
       "path" : "content/cangie-bear.json"
     }
   }
