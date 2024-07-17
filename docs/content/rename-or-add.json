@@ -1,0 +1,42 @@
+{
+  "name" : "rename-or-add",
+  "title" : "Rename or add",
+  "subtitle" : "Will this rename or add an additional new file?",
+  "author" : "Full Stack Cloud Developer",
+  "created" : 1721247422915,
+  "content" : {
+    "time" : 1721247422277,
+    "blocks" : [ {
+      "id" : "ZV_7pJ0DVC",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "This is a background image test."
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "am4I0_khMH",
+      "type" : "code",
+      "data" : {
+        "code" : "This is entering code?\n\nHow does it know what kind of code to be?\n\nThere is definitely a better solution than this."
+      }
+    }, {
+      "id" : "864o5-m2kh",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "That ^^^ box above is just a textarea with a monospace font :("
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    } ],
+    "version" : "2.30.2"
+  },
+  "properties" : { },
+  "path" : "content/rename-or-add.json"
+}
