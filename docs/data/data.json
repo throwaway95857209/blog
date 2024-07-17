@@ -54,10 +54,8 @@
       "title" : "Testing Background Images",
       "subtitle" : "This is a test for background images for new posts.",
       "author" : "Full Stack Cloud Developer",
-      "created" : 1721204581528,
-      "properties" : {
-        "background-image" : "https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg"
-      },
+      "created" : 1721206003275,
+      "properties" : { },
       "path" : "content/testing-background-images.json"
     }
   }
