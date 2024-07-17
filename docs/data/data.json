@@ -77,6 +77,15 @@
         "background-image" : "https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg"
       },
       "path" : "content/cangie-bear.json"
+    },
+    "this-is-a-new-post" : {
+      "name" : "this-is-a-new-post",
+      "title" : "This is a New Post",
+      "subtitle" : "Testing subsequent new post right after a new post.",
+      "author" : "Full Stack Cloud Developer",
+      "created" : 1721246905205,
+      "properties" : { },
+      "path" : "content/this-is-a-new-post.json"
     }
   }
 }
