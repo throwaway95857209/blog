@@ -1,0 +1,25 @@
+{
+  "name" : "this-is-a-new-post",
+  "title" : "This is a New Post",
+  "subtitle" : "Testing subsequent new post right after a new post.",
+  "author" : "Full Stack Cloud Developer",
+  "created" : 1721246905205,
+  "content" : {
+    "time" : 1721246904609,
+    "blocks" : [ {
+      "id" : "8Rzf22U2DO",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "This is a test to see if a new post can be created right after a new post."
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    } ],
+    "version" : "2.30.2"
+  },
+  "properties" : { },
+  "path" : "content/this-is-a-new-post.json"
+}
