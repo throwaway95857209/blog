@@ -252,7 +252,7 @@
           new DragDrop(editor);
 
           (async () => {
-            if (window.location.hash) {
+            if (window.location.hash && window.location.hash !== "#new") {
               const link = window.location.hash.substring(1);
               const response = await fetch(`content/${link}.json`);
               const text = await response.text();
