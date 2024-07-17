@@ -1,0 +1,27 @@
+{
+  "name" : "testing-background-images",
+  "title" : "Testing Background Images",
+  "subtitle" : "This is a test for background images for new posts.",
+  "author" : "Full Stack Cloud Developer",
+  "created" : 1721204581528,
+  "content" : {
+    "time" : 1721204580895,
+    "blocks" : [ {
+      "id" : "WalWYHwq-M",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "This is a test for background images on a new post."
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    } ],
+    "version" : "2.30.2"
+  },
+  "properties" : {
+    "background-image" : "https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg"
+  },
+  "path" : "content/testing-background-images.json"
+}
