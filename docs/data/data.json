@@ -66,6 +66,15 @@
       "created" : 1721228543922,
       "properties" : { },
       "path" : "content/charlie-bear.json"
+    },
+    "cangie-bear" : {
+      "name" : "cangie-bear",
+      "title" : "Cangie Bear",
+      "subtitle" : "the dog",
+      "author" : "me",
+      "created" : 1721230903314,
+      "properties" : { },
+      "path" : "content/cangie-bear.json"
     }
   }
 }
