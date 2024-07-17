@@ -86,6 +86,15 @@
       "created" : 1721246905205,
       "properties" : { },
       "path" : "content/this-is-a-new-post.json"
+    },
+    "rename-or-add" : {
+      "name" : "rename-or-add",
+      "title" : "Rename or add",
+      "subtitle" : "Will this rename or add an additional new file?",
+      "author" : "Full Stack Cloud Developer",
+      "created" : 1721247422915,
+      "properties" : { },
+      "path" : "content/rename-or-add.json"
     }
   }
 }
