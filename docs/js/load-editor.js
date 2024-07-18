@@ -127,6 +127,7 @@ const createEditor = function (holder) {
 };
 
 loadStyleSheet("plugins/simple-image/simple-image.css");
+loadStyleSheet("css/load-editor.css");
 
 loadScripts([
     "https://cdn.jsdelivr.net/npm/@editorjs/editorjs",
