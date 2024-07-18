@@ -112,7 +112,7 @@ const createEditor = function (holder) {
                             document.querySelector("header.masthead").style.backgroundImage = "url(assets/img/default.jpg)";
                         }
                     }
-                    editor.readOnly.toggle(true);
+                    // editor.readOnly.toggle(true);
 
                 })();
 
