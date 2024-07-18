@@ -3,14 +3,15 @@
   "title" : "Rename or add",
   "subtitle" : "Will this rename or add an additional new file?",
   "author" : "Full Stack Cloud Developer",
-  "created" : 1721247864598,
+  "created" : 1721275144013,
   "content" : {
-    "time" : 1721247864037,
+    "time" : 1721275143411,
     "blocks" : [ {
-      "id" : "ZV_7pJ0DVC",
-      "type" : "paragraph",
+      "id" : "fHgR3X33RX",
+      "type" : "header",
       "data" : {
-        "text" : "This is a background image test."
+        "text" : "This is a background image test",
+        "level" : 1
       },
       "tunes" : {
         "anyTuneName" : {
@@ -120,6 +121,55 @@
         "anyTuneName" : {
           "alignment" : "left"
         }
+      }
+    }, {
+      "id" : "Y6FgPPZgqh",
+      "type" : "image",
+      "data" : {
+        "url" : "https://goldclubdirect.com/wp-content/uploads/2021/06/2021-american-eagle-gold-one-ounce-bullion-coin-reverse-new-design-300x300.jpg",
+        "caption" : "",
+        "withBorder" : false,
+        "withBackground" : false,
+        "stretched" : false
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "vVwSnrHdQi",
+      "type" : "table",
+      "data" : {
+        "withHeadings" : true,
+        "content" : [ [ "Heading 1", "Heading 2", "Heading 3", "Heading 4" ], [ "1", "2", "3", "4" ], [ "5", "6", "7", "8" ], [ "<b><i>9</i></b>", "10", "11", "12" ] ]
+      }
+    }, {
+      "id" : "mtZhF5I46h",
+      "type" : "header",
+      "data" : {
+        "text" : "Todo List",
+        "level" : 2
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "O6FaCrbYTm",
+      "type" : "checklist",
+      "data" : {
+        "items" : [ {
+          "text" : "Item 1",
+          "checked" : false
+        }, {
+          "text" : "Item 2",
+          "checked" : false
+        }, {
+          "text" : "Item 3",
+          "checked" : false
+        } ]
       }
     } ],
     "version" : "2.30.2"
