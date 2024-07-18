@@ -55,8 +55,7 @@ const createEditor = function (holder) {
                 inlineToolbar: true
             },
             code: {
-                class: CodeTool,
-                shortcut: 'CMD+SHIFT+D'
+                class: CodeTool
             },
             quote: {
                 class: Quote,
@@ -70,12 +69,10 @@ const createEditor = function (holder) {
             },
             raw: RawTool,
             inlineCode: {
-                class: InlineCode,
-                shortcut: 'CMD+SHIFT+C'
+                class: InlineCode
             },
             marker: {
-                class: Marker,
-                shortcut: 'CMD+SHIFT+M'
+                class: Marker
             },
             warning: Warning,
             checklist: Checklist,
