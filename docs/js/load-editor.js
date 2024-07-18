@@ -113,7 +113,7 @@ const createEditor = function (holder) {
                         }
                     }
                     editor.readOnly.toggle(true);
-
+                    document.getElementById('editor').editor = editor;
                 })();
 
             }, 200);
