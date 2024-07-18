@@ -113,7 +113,6 @@ const createEditor = function (holder) {
                         }
                     }
                     editor.readOnly.toggle(true);
-                    document.getElementById('editor').editor = editor;
 
                 })();
 
@@ -146,8 +145,7 @@ loadScripts([
     "https://cdn.jsdelivr.net/npm/editorjs-drag-drop",
     "https://cdn.jsdelivr.net/npm/editorjs-text-alignment-blocktune"
 ], function (ev) {
-    const el = document.getElementById('editor');
-    el.editor = createEditor('editor');
+    createEditor('editor');
 });
 
 const getFormattedDate = function (created) {
