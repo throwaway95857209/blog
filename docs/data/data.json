@@ -95,6 +95,15 @@
       "created" : 1721275144013,
       "properties" : { },
       "path" : "content/rename-or-add.json"
+    },
+    "java-standalone" : {
+      "name" : "java-standalone",
+      "title" : "Java Standalone",
+      "subtitle" : "This is a test of a Java standalone application ",
+      "author" : "Full Stack Cloud Developer",
+      "created" : 1721377337766,
+      "properties" : { },
+      "path" : "content/java-standalone.json"
     }
   }
 }
