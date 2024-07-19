@@ -1,0 +1,85 @@
+{
+  "name" : "java-standalone",
+  "title" : "Java Standalone",
+  "subtitle" : "This is a test of a Java standalone application ",
+  "author" : "Full Stack Cloud Developer",
+  "created" : 1721377337766,
+  "content" : {
+    "time" : 1721377336971,
+    "blocks" : [ {
+      "id" : "_nHM2BqohX",
+      "type" : "header",
+      "data" : {
+        "text" : "Header 1",
+        "level" : 2
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "PlmgWtA7JK",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "This is a paragraph."
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "EY0bkJ-_9f",
+      "type" : "paragraph",
+      "data" : {
+        "text" : "The text is a little grainy and the scroll is a little jittery."
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "03IT3nCSHS",
+      "type" : "table",
+      "data" : {
+        "withHeadings" : true,
+        "content" : [ [ "Heading 1", "Heading 2" ], [ "It seems to be working okay though", "this is a table" ], [ "I see why I had those other styles", "to fix the table" ], [ "I will need", "to add those styles" ] ]
+      }
+    }, {
+      "id" : "ul83EFBVOs",
+      "type" : "image",
+      "data" : {
+        "url" : "https://www.chromethemer.com/backgrounds/google/images/mountain-peaks-google-background.jpg",
+        "caption" : "",
+        "withBorder" : false,
+        "withBackground" : false,
+        "stretched" : false
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    }, {
+      "id" : "-P4e6Nb4PS",
+      "type" : "image",
+      "data" : {
+        "url" : "https://res.cloudinary.com/altaskiarea/image/upload/f_auto,q_auto/e_gradient_fade:25,x_0.4/e_gradient_fade:15,y_0.20/e_gradient_fade:30,y_-0.5/v1587068987/resources/Media/SammoMedia.jpg",
+        "caption" : "",
+        "withBorder" : false,
+        "withBackground" : false,
+        "stretched" : false
+      },
+      "tunes" : {
+        "anyTuneName" : {
+          "alignment" : "left"
+        }
+      }
+    } ],
+    "version" : "2.30.2"
+  },
+  "properties" : { },
+  "path" : "content/java-standalone.json"
+}
